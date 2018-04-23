@@ -120,20 +120,30 @@ div {
   right: 14px;
   transform: rotate(10deg);
 }
-.wanzi .face .eye {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #000;
+.wanzi .face .glasses {
+  width: 35px;
+  height: 30px;
+  border-radius: 25% 25% 40% 40%;
+  background: #152131;
   position: absolute;
-  top: 40px;
+  top: 30px;
   z-index: 2;
 }
-.wanzi .face .eye.left-eye {
-  left: 32%;
+.wanzi .face .glasses.left-glasses {
+  left: 70px;
+  transform: rotate(5deg);
 }
-.wanzi .face .eye.right-eye {
-  right: 32%;
+.wanzi .face .glasses.right-glasses {
+  right: 70px;
+  transform: rotate(-5deg);
+}
+.wanzi .face .glassesline {
+  width: 150px;
+  height: 2px;
+  background: #152131;
+  position: absolute;
+  top: 40px;
+  left: 0px;
 }
 .wanzi .face .blusher {
   width: 12px;
